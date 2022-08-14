@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Rubik+Dirt&display=swap"
+        rel="stylesheet">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>STUDENT's DETAILS</h1>
+    <form action="" id="form">
+        <label for="name">Name </label><br>
+        <input type="text" id="name" title="Required" placeholder="Enter name" required>
+        <br><br>
+        <label for="email">Email </label><br>
+        <input type="email" id="email" placeholder="Enter email address" required>
+        <br><br>
+        <label for="age">Age </label><br>
+        <input type="number" id="age" placeholder="Enter age" required>
+        <br><br>
+        <label>Branch </label><br>
+        <label for="CSE"><input type="radio" name="branch" id="CSE"> CSE</label>
+        <label for="ECE"><input type="radio" name="branch" id="ECE"> ECE</label>
+        <label for="EEE"><input type="radio" name="branch" id="EEE"> EEE</label>
+        <label for="MECH"><input type="radio" name="branch" id="MECH"> MECH</label>
+        <label for="CHEMICAL"><input type="radio" name="branch" id="CHEMICAL"> CHEMICAL</label><br>
+        <label for="METALLURGY"><input type="radio" name="branch" id="METALLURGY"> METALLURGY</label>
+        <label for="LIFE SCIENCES"><input type="radio" name="branch" id="LIFE SCIENCES"> LIFE SCIENCES</label>
+        <label for="OTHER"><input type="radio" name="branch" id="OTHER"> OTHER</label>
+
+        <br><br>
+        <label for="Language">Language </label><br>
+        <label for="c"><input type="checkbox" id="c" class="ch"> C</label>
+        <label for="c++"><input type="checkbox" id="c++" class="ch"> C++</label>
+        <label for="Java"><input type="checkbox" id="Java" class="ch"> Java</label>
+        <label for="Python"><input type="checkbox" id="Python" class="ch"> Python</label>
+        <label for="Ruby"><input type="checkbox" id="Ruby" class="ch"> Ruby</label>
+        <label for="Fortran"><input type="checkbox" id="Fortran" class="ch"> Fortran</label>
+        <!-- <input type="submit" value="Submit" class="btn"> <input type="reset" value="Reset" class="btn"> -->
+        <button type="submit" class="btn" >Submit</button> <button type="reset" class="btn">Reset</button>
+    </form>
+</body>
+
+</html>
